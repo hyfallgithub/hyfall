@@ -1,0 +1,112 @@
+<!DOCTYPE html><html lang="en">
+<!-- Mirrored from ash.gd/posts/2015-07-03-making-your-entire-apple-music-library-offline by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 02:10:26 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head><meta name="viewport" content="width=device-width"/><meta charSet="utf-8"/><style type="text/css">
+            /* @font-face {
+              font-family: 'PT Root UI';
+              font-display: swap;
+              src: url('/fonts/pt-root-ui-vf/fonts/pt-root-ui-vf.woff2') format('woff2');
+            } */
+            
+            @font-face {
+              font-family: 'Zangezi Sans';
+              font-weight: 700;
+              font-display: swap;
+              src: url('../fonts/zangezi-sans-0.8/ZangeziSans08-Black.woff2') format('woff2');
+            }
+
+            @font-face {
+              font-family: 'JetBrains Mono';
+              font-display: swap;
+              src: url('../fonts/JetBrainsMono-1.0.3/web/woff2/JetBrainsMono-Regular.woff2') format('woff2');
+            }
+
+            @font-face {
+              font-family: Space Grotesk;
+              font-display: swap;
+              src: url('../fonts/space-grotesk-1.1.6/variable/SpaceGroteskVariable.ttf') format('truetype');
+            }
+          </style><title>Make your entire Apple Music library available offline - Ash</title><noscript data-n-css="true"></noscript><link rel="preload" href="../_next/static/chunks/main-a8bee2a654dc1ec3f867.js" as="script"/><link rel="preload" href="../_next/static/chunks/webpack-0d21ce76fa2eab9a99a2.js" as="script"/><link rel="preload" href="../_next/static/chunks/framework-1bb91ad9873b30ae9cc8.js" as="script"/><link rel="preload" href="../_next/static/chunks/4b5af5b7c403ea92fecda8151d2d0aec9203d47f-166fc89835d7310a1edd.js" as="script"/><link rel="preload" href="../_next/static/chunks/bb89b55f4e46d4f7117026e883efb04dd53f34b0-dcb8bb12789c430ced16.js" as="script"/><link rel="preload" href="../_next/static/chunks/3055742522a0ac2e5da4de9349bfe16c5d457882-77e8f1bc6cd5a85348d4.js" as="script"/><link rel="preload" href="../_next/static/chunks/fbf7bac2deb23a982538d824bf4ea07943c8716f-a2df4da657d7cc84cff7.js" as="script"/><link rel="preload" href="../_next/static/chunks/pages/_app-bb9817fa7b5f1b47a55d.js" as="script"/><link rel="preload" href="../_next/static/chunks/pages/posts/2015-07-03-making-your-entire-apple-music-library-offline-cc9f23ca23295a53637b.js" as="script"/><style data-styled="" data-styled-version="5.2.1">.dlAsPD{padding-bottom:15vmin;}/*!sc*/
+.lgZlXc{padding-left:var(--space2);padding-right:var(--space2);max-width:75rem;}/*!sc*/
+.ecyWVI{max-width:44ch;}/*!sc*/
+data-styled.g1[id="box__Box-o7e38x-0"]{content:"dlAsPD,lgZlXc,gBeotF,ecyWVI,"}/*!sc*/
+*{margin:0;padding:0;}/*!sc*/
+:root{--document-border-color:#fff;--body-color:#020202;--body-color-subtle:rgb(69,68,68);--background-color:rgb(253,206,245);--accent-color:#090efe;--accent-color-b:#f8ce03;--accent-color-c:#e3fffd;--document-border-width:var(--space2);font-family: Space Grotesk,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-variation-settings:'wght' 430;font-size:1.2rem;font-size:clamp(1.26rem,1.8vw,1.48rem);line-height:1.44;-webkit-text-size-adjust:100%;text-size-adjust:100%;background-color:var(--document-border-color);color:var(--body-color);margin:var(--document-border-width);margin-bottom:0;--space1:0.25rem;--space2:1rem;--space3:1.25rem;--space4:1.875rem;--space5:2.8125rem;}/*!sc*/
+@media (min-width:30em){:root{--space1:0.3125rem;--space2:1.25rem;--space3:1.5625rem;--space4:2.34375rem;--space5:3.515625rem;}}/*!sc*/
+@media (min-width:45em){:root{--space1:0.390625rem;--space2:1.5625rem;--space3:1.953125rem;--space4:2.9296875rem;--space5:4.39453125rem;}}/*!sc*/
+h1,h2,h3,h4,h5,h6{font-size:1rem;font-weight:normal;}/*!sc*/
+a{color:var(--accent-color);-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+data-styled.g3[id="sc-global-ehqBEZ1"]{content:"sc-global-ehqBEZ1,"}/*!sc*/
+.fLoZft{font-variation-settings:'wght' 680;}/*!sc*/
+.fJYDkD{font-size:0.8rem;}/*!sc*/
+.jhWntc{font-size:0.6rem;font-family:'JetBrains Mono',SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;}/*!sc*/
+data-styled.g4[id="text__Text-sc-1w878hb-0"]{content:"fLoZft,fJYDkD,kwyDPp,jhWntc,"}/*!sc*/
+.kMIxmf{margin:calc(var(--space1) * -1);list-style:none;}/*!sc*/
+@media (max-width:calc(30em - 1px)){.kMIxmf{text-align:right;}}/*!sc*/
+@media (min-width:30em){.kMIxmf{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}}/*!sc*/
+data-styled.g5[id="navigation__NavigationList-sc-774eka-0"]{content:"kMIxmf,"}/*!sc*/
+.jCRvkf{display:inline-block;position:relative;padding:calc(var(--space1) / 2) var(--space1);color:inherit;-webkit-text-decoration:none;text-decoration:none;}/*!sc*/
+.jCRvkf:hover{background-color:initial;color:var(--accent-color);}/*!sc*/
+.jCRvkf.is-active::after{display:block;position:absolute;height:2px;background-color:var(--accent-color);content:'';}/*!sc*/
+@media (max-width:calc(30em - 1px)){.jCRvkf.is-active::after{width:var(--space2);left:0;top:calc(50% - 1px);-webkit-transform:translate(-100%,-50%);-ms-transform:translate(-100%,-50%);transform:translate(-100%,-50%);}}/*!sc*/
+@media (min-width:30em){.jCRvkf.is-active::after{left:var(--space1);right:var(--space1);bottom:calc((var(--space1) * 0.5) + 1px);}}/*!sc*/
+data-styled.g6[id="navigation___StyledText-sc-774eka-1"]{content:"jCRvkf,"}/*!sc*/
+.dwSieX{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:var(--space3);}/*!sc*/
+@media (min-width:30em){.dwSieX{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}}/*!sc*/
+data-styled.g7[id="header__Container-sc-1nogbck-0"]{content:"dwSieX,"}/*!sc*/
+.dSUWxe{margin-left:auto;}/*!sc*/
+data-styled.g8[id="header__NavigationContainer-sc-1nogbck-1"]{content:"dSUWxe,"}/*!sc*/
+.dVmQNP{-webkit-text-decoration:none;text-decoration:none;color:var(--body-color);}/*!sc*/
+.dVmQNP:hover,.dVmQNP:focus{color:var(--accent-color);background-color:initial;}/*!sc*/
+data-styled.g9[id="header__LogoLink-sc-1nogbck-2"]{content:"dVmQNP,"}/*!sc*/
+.eCUvub > * + *{margin-top:15vmin;}/*!sc*/
+.gjNOtV > * + *{margin-top:var(--space2);}/*!sc*/
+.IbxUW > * + *{margin-left:var(--space1);}/*!sc*/
+.fBFIvK > * + *{margin-top:var(--space1);}/*!sc*/
+data-styled.g10[id="stack__Stack-sc-1bfl2es-0"]{content:"eCUvub,gjNOtV,IbxUW,fBFIvK,"}/*!sc*/
+.UHOor{font-variation-settings:'wght' 700;}/*!sc*/
+data-styled.g11[id="footer___StyledP-sc-1ndajg9-0"]{content:"UHOor,"}/*!sc*/
+.hVDTEs{font-variation-settings:'wght' 700;}/*!sc*/
+data-styled.g12[id="footer___StyledP2-sc-1ndajg9-1"]{content:"hVDTEs,"}/*!sc*/
+.lTRne{font-variation-settings:'wght' 700;}/*!sc*/
+data-styled.g13[id="footer___StyledP3-sc-1ndajg9-2"]{content:"lTRne,"}/*!sc*/
+.bmlNgE{display:grid;padding:var(--space2);grid-gap:var(--space2);color:var(--body-color-subtle);grid-template-areas:'main' 'metaA' 'metaB' 'metaC';}/*!sc*/
+@media (min-width:30em){.bmlNgE{grid-template-areas:'main main' 'metaA metaB' 'metaC metaC';grid-template-columns:1fr 1fr;}}/*!sc*/
+@media (min-width:45em){.bmlNgE{grid-template-areas:'main metaA metaB' 'main metaA metaB' 'metaC metaC metaC';grid-template-columns:1fr repeat(2,max-content);}}/*!sc*/
+data-styled.g14[id="footer__FooterBox-sc-1ndajg9-3"]{content:"bmlNgE,"}/*!sc*/
+.ftvdvg{grid-area:main;}/*!sc*/
+data-styled.g15[id="footer__Main-sc-1ndajg9-4"]{content:"ftvdvg,"}/*!sc*/
+.eLXBoK{grid-area:metaA;}/*!sc*/
+data-styled.g16[id="footer__MetaA-sc-1ndajg9-5"]{content:"eLXBoK,"}/*!sc*/
+.fVXKtW{grid-area:metaB;}/*!sc*/
+data-styled.g17[id="footer__MetaB-sc-1ndajg9-6"]{content:"fVXKtW,"}/*!sc*/
+.cJKiTi{grid-area:metaC;}/*!sc*/
+data-styled.g18[id="footer__MetaC-sc-1ndajg9-7"]{content:"cJKiTi,"}/*!sc*/
+.ecXWUQ{list-style:none;}/*!sc*/
+data-styled.g19[id="footer__MetaList-sc-1ndajg9-8"]{content:"ecXWUQ,"}/*!sc*/
+.IiDPi{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;min-height:calc(100vh - var(--document-border-width));-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}/*!sc*/
+data-styled.g20[id="layout__DocumentOuter-a96x6c-0"]{content:"IiDPi,"}/*!sc*/
+.gtQWMY{-webkit-flex:1;-ms-flex:1;flex:1;background-color:var(--background-color);}/*!sc*/
+data-styled.g21[id="layout__DocumentInner-a96x6c-1"]{content:"gtQWMY,"}/*!sc*/
+.sjhRJ{display:grid;grid-template-areas:'gutter1 content gutter2' 'gutter1 meta1 gutter2' 'gutter1 meta2 gutter2';grid-template-columns:minmax(var(--space2),auto) minmax(0,44ch) minmax(var(--space2),auto);--gutterAb:var(--space2);}/*!sc*/
+@media (max-width:calc(65em - 1px)){.sjhRJ > * + *{margin-top:var(--space2);}}/*!sc*/
+@media (min-width:65em){.sjhRJ{grid-template-areas:'gutter1 meta1 gutterA content gutterB meta2 gutter2';grid-template-columns:1fr minmax(auto,15ch) var(--gutterAb) minmax(auto,52ch) var(--gutterAb) minmax(auto,15ch) 1fr;}}/*!sc*/
+@media (min-width:72em){.sjhRJ{--gutterAb:var(--space4);}}/*!sc*/
+data-styled.g22[id="standard-grid__StandardGrid-sc-1fejgwn-0"]{content:"sjhRJ,"}/*!sc*/
+.hVMqJH{grid-area:content;}/*!sc*/
+data-styled.g23[id="standard-grid__StandardGridContent-sc-1fejgwn-1"]{content:"hVMqJH,"}/*!sc*/
+.sNtQd{display:inline-block;padding:0.25rem;background-color:#000;color:#fff;}/*!sc*/
+data-styled.g27[id="tag__TagBox-sc-1xis00c-0"]{content:"sNtQd,"}/*!sc*/
+.eKnQhQ{text-align:center;}/*!sc*/
+data-styled.g28[id="post-header__Container-sc-5ypy2r-0"]{content:"eKnQhQ,"}/*!sc*/
+.mDvIj{color:var(--body-color-subtle);}/*!sc*/
+data-styled.g29[id="post-header___StyledText-sc-5ypy2r-1"]{content:"mDvIj,"}/*!sc*/
+.jibpot{font-family:'Zangezi Sans';font-weight:700;color:var(--accent-color);line-height:1.06;font-size:2.2rem;font-size:clamp(2.6rem,7.2vw,5.6rem);text-align:center;}/*!sc*/
+data-styled.g30[id="post-header__Heading-sc-5ypy2r-2"]{content:"jibpot,"}/*!sc*/
+.jaBWsi{margin-left:auto;margin-right:auto;}/*!sc*/
+data-styled.g31[id="post-layout___StyledBox-gugcd7-0"]{content:"jaBWsi,"}/*!sc*/
+.diiWFD{text-align:center;}/*!sc*/
+data-styled.g32[id="post-layout__Tags-gugcd7-1"]{content:"diiWFD,"}/*!sc*/
+</style></head><body><div id="__next"><div class="layout__DocumentOuter-a96x6c-0 IiDPi"><div class="layout__DocumentInner-a96x6c-1 gtQWMY"><div class="box__Box-o7e38x-0 dlAsPD"><div direction="block" class="stack__Stack-sc-1bfl2es-0 eCUvub"><div class="header__Container-sc-1nogbck-0 dwSieX"><a href="../index.html" class="header__LogoLink-sc-1nogbck-2 dVmQNP"><p class="text__Text-sc-1w878hb-0 fLoZft">Ash</p></a><div class="header__NavigationContainer-sc-1nogbck-1 dSUWxe"><nav class="text__Text-sc-1w878hb-0 fJYDkD"><ul class="navigation__NavigationList-sc-774eka-0 kMIxmf"><li><a href="../index.html" class="text__Text-sc-1w878hb-0 navigation___StyledText-sc-774eka-1 kwyDPp jCRvkf">Home</a></li><li><a href="../posts" class="text__Text-sc-1w878hb-0 navigation___StyledText-sc-774eka-1 fLoZft jCRvkf is-active">Posts</a></li><li><a href="../projects" class="text__Text-sc-1w878hb-0 navigation___StyledText-sc-774eka-1 kwyDPp jCRvkf">Projects</a></li><li><a href="../about" class="text__Text-sc-1w878hb-0 navigation___StyledText-sc-774eka-1 kwyDPp jCRvkf">About</a></li></ul></nav></div></div><div class="box__Box-o7e38x-0 post-layout___StyledBox-gugcd7-0 lgZlXc jaBWsi"><header class="post-header__Container-sc-5ypy2r-0 eKnQhQ"><div direction="block" class="stack__Stack-sc-1bfl2es-0 gjNOtV"><div><time dateTime="2015-07-03" class="text__Text-sc-1w878hb-0 post-header___StyledText-sc-5ypy2r-1 jhWntc mDvIj">03/07/2015</time></div><p class="post-header__Heading-sc-5ypy2r-2 jibpot">Make your entire Apple Music library available offline</p><div><span class="tag__TagBox-sc-1xis00c-0 sNtQd text__Text-sc-1w878hb-0 jhWntc">#<!-- -->Apple Music</span></div></div></header></div><div class="box__Box-o7e38x-0 gBeotF"><div class="standard-grid__StandardGrid-sc-1fejgwn-0 sjhRJ"><div class="standard-grid__StandardGridContent-sc-1fejgwn-1 hVMqJH"><div direction="block" class="stack__Stack-sc-1bfl2es-0 gjNOtV"><p>I&#x27;m a long time Spotify user. I started using it long before the library feature was introduced, so my music collection grew as one big playlist. When I started with Apple Music, I wanted to use the library instead. I started to move my collection from Spotify to Apple Music by adding tracks to my Apple Music library.</p><p>After moving about three hundred tracks across, I opened Apple Music on my iPhone and looked for the option to download my library. I could not find it, and after some searching assume that it does not exist. It seems that in Apple Music only albums, tracks, and playlists can be made available offline (I&#x27;m not sure if this is the same case with Spotify).</p><p>This limitation is actually very easily circumvented with <a href="https://support.apple.com/kb/PH12141?locale=en_US&amp;viewlocale=en_US"><em>smart playlists</em></a>. A smart playlist with one rule—Media Kind is Music—does the trick. It&#x27;ll automatically include any music in your library, so when it&#x27;s set to be available offline, all of your library music will be too.</p><p>It did occur to me, though, that the library may not be offlineble for a good reason. Whereas I&#x27;d add single tracks (often culminating in entire albums) to my Spotify playlist, it&#x27;d be nice to add various albums I&#x27;m interested in to my Apple Music library without having them sync offline. There is another filter that you can add to a smart playlist—Loved is true—that when used in combination with the media kind filter will include only music that you&#x27;ve <em>loved</em>. Maybe that&#x27;s a better setup than simply offlining all library music.</p><p>Hopefully this is handy for somebody trying to do the same thing. If you know a better way, <a href="https://twitter.com/juice49">Tweet me</a>!</p></div></div></div></div><div class="post-layout__Tags-gugcd7-1 diiWFD"><div direction="inline" class="stack__Stack-sc-1bfl2es-0 IbxUW"><span class="tag__TagBox-sc-1xis00c-0 sNtQd text__Text-sc-1w878hb-0 jhWntc">#<!-- -->Apple Music</span><span class="tag__TagBox-sc-1xis00c-0 sNtQd text__Text-sc-1w878hb-0 jhWntc">#<!-- -->Spotify</span></div></div></div></div></div><div class="text__Text-sc-1w878hb-0 fJYDkD"><footer class="footer__FooterBox-sc-1ndajg9-3 bmlNgE"><div class="footer__Main-sc-1ndajg9-4 ftvdvg"><div direction="block" class="stack__Stack-sc-1bfl2es-0 fBFIvK"><p class="footer___StyledP-sc-1ndajg9-0 UHOor">Made by Ash.</p><p>Figuring shit out 2008 – ??</p></div></div><div class="footer__MetaA-sc-1ndajg9-5 eLXBoK"><div direction="block" class="stack__Stack-sc-1bfl2es-0 fBFIvK"><p class="footer___StyledP2-sc-1ndajg9-1 hVDTEs">Etc.</p><ul class="footer__MetaList-sc-1ndajg9-8 ecXWUQ"><li><a href="#"><del>About this site</del></a></li><li><a href="#"><del>Design system</del></a></li></ul></div></div><div class="footer__MetaB-sc-1ndajg9-6 fVXKtW"><div direction="block" class="stack__Stack-sc-1bfl2es-0 fBFIvK"><p class="footer___StyledP3-sc-1ndajg9-2 lTRne">Networks and stuff:</p><ul class="footer__MetaList-sc-1ndajg9-8 ecXWUQ"><li><a href="mailto:ashley@juice49.com">ashley@juice49.com</a></li><li><a href="https://twitter.com/juice49" target="_blank" rel="noopener">Twitter</a></li><li><a href="https://github.com/juice49" target="_blank" rel="noopener">GitHub</a></li><li><a href="https://instagram.com/juice49" target="_blank" rel="noopener">Instagram</a></li><li><a href="https://codepen.com/ash" target="_blank" rel="noopener">Codepen</a></li><li><a href="https://dribbble.com/ash" target="_blank" rel="noopener">Dribbble</a></li></ul></div></div><div class="footer__MetaC-sc-1ndajg9-7 cJKiTi"><div class="box__Box-o7e38x-0 ecyWVI"><div direction="block" class="stack__Stack-sc-1bfl2es-0 fBFIvK"><p>Feel free to use and remix anything you find on this site. It would be cool to hear what you do with it ✌️.</p></div></div></div></footer></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{"__nextSsgCodeBlocks":{}},"__N_SSG":true},"page":"/posts/2015-07-03-making-your-entire-apple-music-library-offline","query":{},"buildId":"RatWFxOT0l9YzuddsZ55j","runtimeConfig":{},"nextExport":false,"isFallback":false,"gsp":true,"head":[["meta",{"name":"viewport","content":"width=device-width"}],["meta",{"charSet":"utf-8"}],["style",{"type":"text/css","dangerouslySetInnerHTML":{"__html":"\n            /* @font-face {\n              font-family: 'PT Root UI';\n              font-display: swap;\n              src: url('/fonts/pt-root-ui-vf/fonts/pt-root-ui-vf.woff2') format('woff2');\n            } */\n            \n            @font-face {\n              font-family: 'Zangezi Sans';\n              font-weight: 700;\n              font-display: swap;\n              src: url('/fonts/zangezi-sans-0.8/ZangeziSans08-Black.woff2') format('woff2');\n            }\n\n            @font-face {\n              font-family: 'JetBrains Mono';\n              font-display: swap;\n              src: url('/fonts/JetBrainsMono-1.0.3/web/woff2/JetBrainsMono-Regular.woff2') format('woff2');\n            }\n\n            @font-face {\n              font-family: Space Grotesk;\n              font-display: swap;\n              src: url('/fonts/space-grotesk-1.1.6/variable/SpaceGroteskVariable.ttf') format('truetype');\n            }\n          "}}],["title",{"children":"Make your entire Apple Music library available offline - Ash"}]]}</script><script nomodule="" src="../_next/static/chunks/polyfills-5fcdb0833e7f775472de.js"></script><script src="../_next/static/chunks/main-a8bee2a654dc1ec3f867.js" async=""></script><script src="../_next/static/chunks/webpack-0d21ce76fa2eab9a99a2.js" async=""></script><script src="../_next/static/chunks/framework-1bb91ad9873b30ae9cc8.js" async=""></script><script src="../_next/static/chunks/4b5af5b7c403ea92fecda8151d2d0aec9203d47f-166fc89835d7310a1edd.js" async=""></script><script src="../_next/static/chunks/bb89b55f4e46d4f7117026e883efb04dd53f34b0-dcb8bb12789c430ced16.js" async=""></script><script src="../_next/static/chunks/3055742522a0ac2e5da4de9349bfe16c5d457882-77e8f1bc6cd5a85348d4.js" async=""></script><script src="../_next/static/chunks/fbf7bac2deb23a982538d824bf4ea07943c8716f-a2df4da657d7cc84cff7.js" async=""></script><script src="../_next/static/chunks/pages/_app-bb9817fa7b5f1b47a55d.js" async=""></script><script src="../_next/static/chunks/pages/posts/2015-07-03-making-your-entire-apple-music-library-offline-cc9f23ca23295a53637b.js" async=""></script><script src="../_next/static/RatWFxOT0l9YzuddsZ55j/_buildManifest.js" async=""></script><script src="../_next/static/RatWFxOT0l9YzuddsZ55j/_ssgManifest.js" async=""></script><script defer="" src="../../static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{&quot;token&quot;: &quot;c130dee7fda7436888dc9b888ff2842a&quot;}"></script></body>
+<!-- Mirrored from ash.gd/posts/2015-07-03-making-your-entire-apple-music-library-offline by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 02:10:26 GMT -->
+</html>
